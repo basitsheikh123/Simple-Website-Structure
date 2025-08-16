@@ -42,18 +42,84 @@
             height: 300px;
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
+           justify-content: center;
+           align-items: center;
+           text-align: center;
         }
          .center-section h1 {
             font-family: "Brush Script MT", cursive;
             font-size: 40px;
             margin-bottom: 5px;
         }
-        .center-section p {
-            font-size: 14px;
-            color: gray;
+        table{
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 90%;
+            margin: 20px auto;
+        }
+        td{
+            border: 1px solid black;
+            vertical-align: top;
+            padding: 15px;
+            width: 33.3% ;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .heading h4{
+             font-family: "Brush Script MT", cursive;
+             font-size: 20px;
+             margin-left: 50px;
+
+        }
+        .card-1{
+            border: 2px solid black;
+            border-radius: 40px;
+            height:  200px;
+            width: 250px;
+            margin-left: 70px;
+            
+        }
+        .card-1 p{
+            font-size: 15px;
+            margin-left: 15px;
+            margin-top: 30px;
+        }
+        .card-2{
+            border: 2px solid black;
+            border-radius: 40px;
+            height:  200px;
+            width: 250px;
+            margin-left: 70px;  
+        }
+        .card-2 p{
+            font-size: 15px;
+            margin-left: 15px;
+            margin-top: 30px;
+        }
+        .card-3{
+            border: 2px solid black;
+            border-radius: 40px;
+            height:  200px;
+            width: 250px;
+            margin-left: 70px; 
+        }
+        .card-3 p {
+            font-size: 15px;
+            margin-left: 15px;
+            margin-top: 30px;
+        }
+        .professor{
+            margin-left: 15px;
+            color: grey;
+        }
+        .footer{
+            font-size: 25px;
+            font-family: "Brush Script MT", cursive;
+            margin-left: 700px;
+            margin-top: 300px;
         }
     </style>
 </head>
@@ -71,7 +137,70 @@
 
     <div class="center-section">
         <h1>Frontend Developer</h1>
+         <p>html only with proper layout, no styling</p>
     </div>
 
+    <table>
+        <tr>
+            <td>
+                <h3>Projects</h3>
+                <p>Html only portfolio</p>
+                <hr>
+                <p>Calculator</p>
+                <hr>
+                <p>Quiz App</p>
+                <hr>
+                <p>Countdown Timer</p>
+                <hr>
+                <p>product upcoming page</p>
+            </td>
+            <td>
+                <h3>Work Experience</h3>
+                <hr>
+                <p><b>roadmap.sh</b><br/>Solved All frontend Projects</p>
+                <a href="#">Visit my profile</a>
+                
+                <p><b>opensource work</b><br/>Contributed to 2 opensource projects. made my own projects</p>
+                <a href="https://github.com/account">Visit my Github Profile</a>
+            </td>
+            <td>
+                <h3>Education</h3>
+                <hr>
+                 <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
+                <p><b>Courses I took:</b></p>
+                <ul>
+                    <li>Object Oriented Programming</li>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Web Engineering</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Human Computer Interaction</li>
+                    <li>Computer Graphics</li>
+                    <li>Database Management Systems</li>
+                    <li>Distributed Database Systems</li>
+                    <li>Discrete Mathematics</li>
+                </ul>
+            </td>
+            </tr>
+    </table>
+    <div class="heading">
+        <h4>Reviews from My teachers</h4>
+    </div>
+    <div class="container">
+        <div class="card-1">
+            <p>Abdul Basit was a brilliant student; always stood out with his Assignments.</p>
+            <div class="professor">Abdul Basit<br/>Assistant Professor</div>
+        </div>
+       <div class="card-2">
+            <p>He always submitted quality work on time and helped his classmates.</p>
+            <div class="professor">Abdul Basit<br/>Assistant Professor</div>
+        </div>
+        <div class="card-3">
+            <p>A hardworking student with strong problem-solving skills.</p>
+            <div class="professor">Abdul Basit<br/>Assistant Professor</div>
+        </div>
+    </div>
+    <div class="footer">
+        @ all rights reserved 2025
+    </div>
 </body>
 </html>
